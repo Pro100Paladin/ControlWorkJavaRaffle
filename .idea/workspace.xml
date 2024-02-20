@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="de35e6d1-cfc5-4b38-a0de-ba50d6662e13" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../Java/ControlWorkJavaTask2/.idea/misc.xml" afterDir="false" />
@@ -16,6 +19,7 @@
       <change afterPath="$PROJECT_DIR$/../../Java/Trenajor/OOP_HW1/OOP_HW1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Java/Trenajor/trenajor/trenajor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C#/DZ1/DZ_C_1" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#/DZ1/DZ_C_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResultRaffle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResultRaffle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/phonebook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/phonebook.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../самоподготовка - решение задач/C#/camopogotovka" beforeDir="false" afterPath="$PROJECT_DIR$/../../самоподготовка - решение задач/C#/camopogotovka" afterDir="false" />
     </list>
@@ -24,9 +28,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cdU1snFLs7NlMQ77CGE2D0dMNj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,6 +47,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/evgeniiokhrimenko/Desktop/учеба/ControlWork/ControlWorkJava",
     "onboarding.tips.debug.path": "/Users/evgeniiokhrimenko/Desktop/учеба/ControlWork/ControlWork2/src/Main.java"
   }
 }]]></component>
@@ -65,15 +77,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
