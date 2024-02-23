@@ -15,16 +15,17 @@ public class PrizeToys {
     }
 
     private void setToyQueue() {
-        double sumFrequencys = 0;
+        double sumFrequency = 0;
         int sumToys = 0;
         for (Toy t : listToys) {
-            sumFrequencys += t.getFrequency();
+            sumFrequency += t.getFrequency();
             sumToys += t.getCount();
+
         }
         if (sumToys < countTickets) {
             System.out.println("Не хватает игрушек");
         }
-        double weightOneFrequency = countTickets / sumFrequencys;
+        double weightOneFrequency = countTickets / sumFrequency;
         for (Toy t : listToys) {
             int requiredCount = (int) Math.round(weightOneFrequency * t.getFrequency());
             if (requiredCount < 1) {
