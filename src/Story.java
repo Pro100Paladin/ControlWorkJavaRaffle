@@ -5,10 +5,10 @@ public class Story {
 
     private void setListToys() {
 
-        String[] names = {"мяч", "скакалка", "пазлы", "кубики", "конструктор", "машинка", "кукла", "самолет"};
-        int[] frequencys = {8, 7, 6, 5, 4, 3, 2, 1};
+        String[] names = {"мяч", "робота", "пазлы", "кубики", "конструктор", "машинка", "кукла", "самолет"};
+        int[] numberOfPrizes = {8, 7, 6, 5, 4, 3, 2, 1};
         for (int i = 0; i < names.length; i++) {
-            Toy toy = new Toy(names[i], frequencys[i] * 10, frequencys[i]);
+            Toy toy = new Toy(names[i], numberOfPrizes[i] * 10, numberOfPrizes[i]);
             listToys.add(toy);
         }
     }

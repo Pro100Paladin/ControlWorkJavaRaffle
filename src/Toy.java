@@ -1,15 +1,12 @@
 import java.util.Objects;
 
 public class Toy {
-    private static int countId = 1;
-    private final int id = countId++;
+    private static int toyId = 1;
+    private final int id = toyId++;
     private String name;
     private int frequency;
     private int countToy;
 
-    public Toy() {
-
-    }
 
     public Toy(String name, int countToy, int frequency) {
         setCountToy(countToy);
@@ -17,11 +14,6 @@ public class Toy {
         setFrequency(frequency);
     }
 
-    public void addNewToy(String name, int countToy, int frequency) {
-        setCountToy(countToy);
-        setName(name);
-        setFrequency(frequency);
-    }
 
     private void setCountToy(int countToy) {
         if (countToy <= 0) {
@@ -32,7 +24,7 @@ public class Toy {
     }
 
     private void setName(String name) {
-        if (Objects.equals(name, "")) {
+        if (Objects.equals(name, " ")) {
             this.name = "None";
         } else {
             this.name = name;

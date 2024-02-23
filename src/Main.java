@@ -2,8 +2,8 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        int countTickets = 15;
-        String fileName = "src/ResultRaffle.txt";
+        int countTickets = 20;
+        String fileName = "src/Result.txt";
         Story story = new Story();
         PrizeToys prizeToys = new PrizeToys(countTickets, story.getListToys());
         Raffle raffle = new Raffle(countTickets, prizeToys.getToyQueue());

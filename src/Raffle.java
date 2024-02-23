@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Objects;
 import java.util.Queue;
 
 public class Raffle {
@@ -13,7 +14,7 @@ public class Raffle {
 
     private void setPrize() {
         for (int i = 1; i <= countTickets; i++) {
-            prise.put(i, prizeToys.poll().getName());
+            prise.put(i, Objects.requireNonNull(prizeToys.poll()).getName());
         }
     }
 
