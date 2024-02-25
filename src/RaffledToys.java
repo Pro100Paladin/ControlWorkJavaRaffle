@@ -34,7 +34,6 @@ public class RaffledToys {
     public static void deleteRaffleToys(String lineContent)  {
         File file = new File("src/ToysList.txt");
         File temp = new File("_temp_");
-        FileWriter save;
         try {
             PrintWriter out = new PrintWriter(new FileWriter(temp), false);
             Files.lines(file.toPath())
