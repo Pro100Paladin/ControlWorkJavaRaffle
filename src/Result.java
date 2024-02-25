@@ -16,9 +16,11 @@ public class Result {
             for (Integer k : mapResult.keySet()) {
                 fileWriter.write("Билет № " + k + " выиграл " + mapResult.get(k) + ".\n");
             }
-            System.out.println("Результаты розыгрыша записаны в файл.");
+            System.out.println("Результаты розыгрыша записаны в файл: Result.txt");
+            System.out.println();
         } catch (IOException e) {
             System.out.println("Ошибка записи в файл");
+            System.out.println();
         }
     }
 }
