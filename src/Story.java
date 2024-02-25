@@ -8,7 +8,7 @@ public class Story {
     private final ArrayList<Toy> listToys = new ArrayList<>();
 
     private void setListToys() throws FileNotFoundException {
-        File txt = new File("src/ToysList.txt");
+        File txt = new File("src/File/ToysList.txt");
         Scanner scan = new Scanner(txt);
         ArrayList<String> data = new ArrayList<>() ;
         while(scan.hasNextLine()){

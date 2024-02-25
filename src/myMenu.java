@@ -24,8 +24,9 @@ public class myMenu {
             }
             switch (x) {
                 case 1:
-                    int countTickets = 20;
-                    String fileName = "src/Result.txt";
+                    System.out.println("введи количество участвующих билетов:");
+                    int countTickets = Integer.parseInt(MyScanner.scanner());
+                    String fileName = "src/File/Result.txt";
                     Story story = new Story();
                     PrizeToys prizeToys = new PrizeToys(countTickets, story.getListToys());
                     Raffle raffle = new Raffle(countTickets, prizeToys.getToyQueue());
