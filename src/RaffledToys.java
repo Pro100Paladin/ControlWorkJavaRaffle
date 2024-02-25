@@ -18,20 +18,15 @@ public class RaffledToys {
     public static void saveRaffleToys() throws IOException {
         System.out.println("Введите новую игрушку: ");
         String path = "src/File/ToysList.txt";
-        Scanner newToy = new Scanner(System.in);
-
         try {
             FileWriter out = new FileWriter(path, true);
             BufferedWriter bufferWriter = new BufferedWriter(out);
             bufferWriter.newLine();
-            bufferWriter.write(newToy.next());
+            bufferWriter.write(MyScanner.scanner());
             bufferWriter.close();
         } catch (IOException e) {
             System.err.println(e);
         }
-        deletingEmptyLines();
-        renameFileToysList();
-
     }
 
     public static void deleteRaffleToys(String lineContent) throws IOException {
@@ -49,8 +44,6 @@ public class RaffledToys {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        deletingEmptyLines();
-        renameFileToysList();
     }
 
     public static void deletingEmptyLines() throws IOException {

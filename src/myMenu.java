@@ -26,6 +26,7 @@ public class myMenu {
                 case 1:
                     System.out.println("введи количество участвующих билетов:");
                     int countTickets = Integer.parseInt(MyScanner.scanner());
+                    System.out.printf("В розыгрыше участвуют %d игрушки(ек) \n", MyArrayList.myArrayList().size());
                     String fileName = "src/File/Result.txt";
                     Story story = new Story();
                     PrizeToys prizeToys = new PrizeToys(countTickets, story.getListToys());
